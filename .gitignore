@@ -1,4 +1,5 @@
-*.pkl  
+# ignore all pickle files
+*.pkl
 
-trained_model.pkl
-"*.pkl" 
+# — or, to ignore only this one file —
+/bot_detector_pipeline.pkl
