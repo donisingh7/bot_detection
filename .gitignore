@@ -1,5 +1,20 @@
-# ignore all pickle files
+# Model artifacts
 *.pkl
-
-# — or, to ignore only this one file —
 /bot_detector_pipeline.pkl
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment
+.env
+.env.*
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
